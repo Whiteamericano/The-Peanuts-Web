@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Peanuts</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        .kiri {
+            text-align: left;
+        }
+
+        .tengah {
+            text-align: center;
+        }
+
+        .kanan {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar-logo">The Peanuts</div>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="scrollToSection('home')">Home</a></li>
+                <li><a href="#produk" onclick="scrollToSection('produk')">Product</a></li>
+                <li><a href="#tentang" onclick="scrollToSection('tentang')">About Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Welcome to <span>The Peanuts Page</span></h1>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <style>
+                        body {
+                            background-image: linear-gradient(to right, #0c343d, #3e8898);
+                            /* Red to Yellow gradient from left to right */
+                            height: 100vh;
+                            /* Make the background cover the entire viewport */
+                        }
+                    </style>
+                </head>
+
+                <body>
+
+                </body>
+
+                </html>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk">
+        <div class="section-title">
+            <h2>Our Product</h2>
+
+        </div>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="produk1.jpg" alt="Produk 1">
+                <h3 class="tengah">Produk 1</h3>
+                <p class="tengah">Desc.</p>
+                <button class="product-button" onclick="showDetail('Produk 1')">Lihat Detail</button>
+            </div>
+            <div class="product-card">
+                <img src="produk2.jpg" alt="Produk 2">
+                <h3 class="tengah">Produk 2</h3>
+                <p class="tengah">Desc.</p>
+                <button class="product-button" onclick="showDetail('Produk 2')">Lihat Detail</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="tentang">
+        <div class="section-title">
+            <h2>About us</h2>
+            <p>Desc.</p>
+        </div>
+        <p class="tentang-description">
+            Desc.
+        </p>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Peanuts.</p>
+    </footer>
+</body>
+
+</html>
